@@ -106,3 +106,13 @@ the user asks to see the raw responses; offer to show them.
   another's answer before Stage 2.
 - Scale down for simple questions: if the question is trivial, tell the user a
   council is overkill and answer directly instead of burning four models on it.
+- **Duplicated-model seats & ties.** When the user wants more members than there
+  are available models, seat the same model more than once (e.g. 2× opus). These
+  are still independent samples and that's fine, but note two effects when
+  reporting: (1) duplicated seats of the strongest model tend to cluster near the
+  top, so a "1. opus / 2. opus" result is expected, not a glitch — name the seat
+  (opus #1, opus #2) so the ranking stays legible; (2) ties in the Borda totals
+  are common with small councils. Break a tie by head-to-head count (how many
+  reviewers ranked one seat above the other), and if still tied, by the higher
+  number of first-place votes; state which tiebreak you used.
+
