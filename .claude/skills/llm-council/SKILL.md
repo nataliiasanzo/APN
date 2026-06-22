@@ -1,6 +1,6 @@
 ---
 name: llm-council
-description: Convene a council of multiple LLMs to deliberate on a question, then synthesize one answer. Each council member is a different model (opus, sonnet, haiku, fable) that answers independently; members then peer-review and rank each other's anonymized answers; a chairman model writes the final synthesized answer. Use when the user wants higher-quality, less-biased answers to a hard or open-ended question by aggregating multiple model opinions (e.g. "/llm-council <question>", "ask the council", "get a council answer").
+description: Convene a council of multiple LLMs to deliberate on a question, then synthesize one answer. Each council member is a different model (opus, sonnet, haiku) that answers independently; members then peer-review and rank each other's anonymized answers; a chairman model writes the final synthesized answer. Use when the user wants higher-quality, less-biased answers to a hard or open-ended question by aggregating multiple model opinions (e.g. "/llm-council <question>", "ask the council", "get a council answer").
 ---
 
 # LLM Council
@@ -14,7 +14,8 @@ a chairman synthesize the final answer.
 
 The council members are **real, distinct models**, spawned as Claude Code
 subagents via the `Agent` tool using the `model` override. Available models:
-`opus`, `sonnet`, `haiku`, `fable`.
+`opus`, `sonnet`, `haiku`. (`fable` exists but is access-restricted and is not
+part of the default council; only include it if the user explicitly asks.)
 
 ## Inputs
 
@@ -22,7 +23,7 @@ subagents via the `Agent` tool using the `model` override. Available models:
   after `/llm-council`). If no question is given, ask the user for one before
   proceeding.
 - Optional knobs the user may state in plain language (use defaults otherwise):
-  - **Council members** — default: `opus`, `sonnet`, `haiku`, `fable`.
+  - **Council members** — default: `opus`, `sonnet`, `haiku`.
   - **Chairman** — default: `opus`.
   - **Rounds** — default: a single deliberation round (Stages 1–3 below).
 
