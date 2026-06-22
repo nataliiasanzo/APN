@@ -2,3 +2,7 @@
 .env
 *.env
 **/.env
+
+# Python bytecode cache
+__pycache__/
+*.pyc
