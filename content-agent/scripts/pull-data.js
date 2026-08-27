@@ -148,6 +148,7 @@ function slimPost(p) {
   };
 
   const out = path.join(ROOT, "dashboard", "data.json");
+  fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, JSON.stringify(data, null, 2));
 
   // --- human-readable proof ---
