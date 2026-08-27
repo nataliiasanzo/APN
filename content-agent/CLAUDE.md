@@ -28,6 +28,10 @@
 - `dashboard/` — self-contained dashboard (`index.html` + small JS files + `data.json`)
 - `.env` — secrets (Apify token, Telegram token/chat id). **Gitignored. Never print, never commit.**
 
+## How it runs
+- Full cycle: `node scripts/run-all.js` → pulls data (Apify) → regenerates agents.json → sends the Telegram digest. Dashboard: `node scripts/serve.js` → http://localhost:8787.
+- A weekly cloud Routine (Mondays ~8am Central) spawns a fresh session in the "APN full network" environment, runs the full cycle, and commits the refreshed `dashboard/data.json` + `agents.json` to this branch.
+
 ## Rules
 - Real data only — rank posts by actual views from the full post history (`instagram-scraper` with `resultsType: posts`), never the `latestPosts` field of the profile scraper.
 - Plain readable files, no black-box services.
