@@ -1,0 +1,344 @@
+{
+  "generatedAt": "2026-08-27T19:39:35.067Z",
+  "dataGeneratedAt": "2026-08-27T19:13:59.161Z",
+  "ideator": {
+    "name": "Ideator",
+    "headline": "5 ideas scouted from real winners",
+    "metrics": [
+      {
+        "label": "Ideas ready",
+        "value": "5"
+      },
+      {
+        "label": "From competitors",
+        "value": "4"
+      },
+      {
+        "label": "Biggest source",
+        "value": "1.1M views"
+      }
+    ],
+    "ideas": [
+      {
+        "title": "Your take on thyroid labs",
+        "topic": "thyroid labs",
+        "source": "@lisha_thyroid_rd — 1.1M views: \"Comment 'LABS' to test your thyroid ⬇\"",
+        "sourceUrl": "https://www.instagram.com/p/DEnaqbtSJI5/",
+        "angle": "The RD's honest take — what this gets right, what it skips, and the one thing that actually moves labs."
+      },
+      {
+        "title": "Steal the format, not the words — @lisha_thyroid_rd's caption-light Reel",
+        "topic": null,
+        "source": "@lisha_thyroid_rd — 99.6K views with almost no caption",
+        "sourceUrl": "https://www.instagram.com/p/DcRYN7OJbwa/",
+        "angle": "The format did the work, not the words. Remix it with one Hashimoto's punchline on screen and let the visual carry it."
+      },
+      {
+        "title": "Your take on wellness hacks",
+        "topic": "wellness hacks",
+        "source": "@izabellawentzpharmd — 55.3K views: \"I asked 10 thyroid and hormone experts what wellness hacks they refuse\"",
+        "sourceUrl": "https://www.instagram.com/p/DPq3t1Okuk3/",
+        "angle": "Myth-bust it: open by agreeing, then flip one assumption your audience didn't know to question."
+      },
+      {
+        "title": "Sequel to your #1: \"Which stage of Hashimoto’s are you in?\"",
+        "topic": "the stages of Hashimoto's",
+        "source": "@all.purpose.nutrition — 4.8M views (your all-time top)",
+        "sourceUrl": "https://www.instagram.com/p/DJwt-SEuHM6/",
+        "angle": "Part 2: 'You told me your stage. Here's the first food shift for each one.' Same self-ID energy, now with a payoff."
+      },
+      {
+        "title": "Evergreen revival: your magnesium × thyroid meds post",
+        "topic": "supplements that interfere with thyroid medication",
+        "source": "@all.purpose.nutrition — 771.9K views in 2022",
+        "sourceUrl": "https://www.instagram.com/p/Ch13uD1A-Jt/",
+        "angle": "Re-shoot it as a 2026 Reel: '3 supplements that quietly fight your thyroid meds.' Old winner, new audience."
+      }
+    ]
+  },
+  "hookScript": {
+    "name": "Hook & Script",
+    "headline": "3 scripts drafted, 9 hooks",
+    "metrics": [
+      {
+        "label": "Scripts drafted",
+        "value": "3"
+      },
+      {
+        "label": "Hook options",
+        "value": "9"
+      },
+      {
+        "label": "Voice",
+        "value": "APN myth-bust"
+      }
+    ],
+    "scripts": [
+      {
+        "idea": "Your take on thyroid labs",
+        "hooks": [
+          "Everything you've heard about thyroid labs is only half true.",
+          "Thyroid labs — my Hashimoto's patients ask me about this every single week.",
+          "If your TSH is \"normal\" but you still feel exhausted, this is for you."
+        ],
+        "beats": [
+          "Beat 1 — validate: name the exact frustration in your audience's words (10 sec).",
+          "Beat 2 — flip: the one thing the popular version of this advice gets wrong for Hashimoto's (20 sec).",
+          "Beat 3 — do this instead: one specific, doable action with a number in it (20 sec)."
+        ],
+        "cta": "Comment your stage — 1, 2 or 3 — and I'll tell you where to start."
+      },
+      {
+        "idea": "Your take on wellness hacks",
+        "hooks": [
+          "Everything you've heard about wellness hacks is only half true.",
+          "Wellness hacks — my Hashimoto's patients ask me about this every single week.",
+          "If your TSH is \"normal\" but you still feel exhausted, this is for you."
+        ],
+        "beats": [
+          "Beat 1 — validate: name the exact frustration in your audience's words (10 sec).",
+          "Beat 2 — flip: the one thing the popular version of this advice gets wrong for Hashimoto's (20 sec).",
+          "Beat 3 — do this instead: one specific, doable action with a number in it (20 sec)."
+        ],
+        "cta": "Save this for your next lab review."
+      },
+      {
+        "idea": "Sequel to your #1: \"Which stage of Hashimoto’s are you in?\"",
+        "hooks": [
+          "Everything you've heard about the stages of Hashimoto's is only half true.",
+          "The stages of Hashimoto's — my Hashimoto's patients ask me about this every single week.",
+          "If your TSH is \"normal\" but you still feel exhausted, this is for you."
+        ],
+        "beats": [
+          "Beat 1 — validate: name the exact frustration in your audience's words (10 sec).",
+          "Beat 2 — flip: the one thing the popular version of this advice gets wrong for Hashimoto's (20 sec).",
+          "Beat 3 — do this instead: one specific, doable action with a number in it (20 sec)."
+        ],
+        "cta": "Save this for your next lab review."
+      }
+    ]
+  },
+  "planner": {
+    "name": "Planner",
+    "headline": "Next 7 days scheduled",
+    "metrics": [
+      {
+        "label": "Days planned",
+        "value": "7"
+      },
+      {
+        "label": "Reels",
+        "value": "2"
+      },
+      {
+        "label": "Next slot",
+        "value": "Friday"
+      }
+    ],
+    "calendar": [
+      {
+        "day": "Friday",
+        "date": "2026-08-28",
+        "format": "Reel",
+        "item": "Your take on thyroid labs"
+      },
+      {
+        "day": "Saturday",
+        "date": "2026-08-29",
+        "format": "Story poll",
+        "item": "Poll: 'What's your biggest Hashimoto's frustration right now?' (feeds next week's Ideator)"
+      },
+      {
+        "day": "Sunday",
+        "date": "2026-08-30",
+        "format": "Carousel",
+        "item": "Your take on wellness hacks"
+      },
+      {
+        "day": "Monday",
+        "date": "2026-08-31",
+        "format": "Reel",
+        "item": "Sequel to your #1: \"Which stage of Hashimoto’s are you in?\""
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026-09-01",
+        "format": "Quote card",
+        "item": "Pull the strongest line from this week's top comment"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026-09-02",
+        "format": "Story Q&A",
+        "item": "Answer 3 DMs publicly (anonymized) — DM Manager picks them"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026-09-03",
+        "format": "Repost",
+        "item": "Re-share your evergreen #1 (4.8M views) to Stories"
+      }
+    ]
+  },
+  "analyst": {
+    "name": "Analyst",
+    "headline": "95.2K views in the last 30 days",
+    "metrics": [
+      {
+        "label": "Views, last 30d",
+        "value": "95.2K"
+      },
+      {
+        "label": "vs prior 30d",
+        "value": "-41%"
+      },
+      {
+        "label": "Posts, last 30d",
+        "value": "34"
+      }
+    ],
+    "insights": [
+      "Reels average 20K views across 560 posts — video is your reach engine; carousels average 145 likes and do their work in saves, not views.",
+      "Your last 20 posts average 4.2K views with 61.6K followers — @palomahealth averages 2.4K, @thyroidnation averages 7.5K, @izabellawentzpharmd averages 13.5K, @lisha_thyroid_rd averages 115.3K.",
+      "Last 30 days: 34 posts, 95.2K views (-41% vs the 30 days before).",
+      "Your #1 post of all time (4.8M views) is a self-identification question — \"Which stage of Hashimoto’s are you in?\". That format is repeatable."
+    ],
+    "benchmarks": [
+      {
+        "username": "palomahealth",
+        "followers": 25241,
+        "avgRecentViews": 2377.8,
+        "topRecent": {
+          "owner": "palomahealth",
+          "shortCode": "DKvRDbYqiW8",
+          "url": "https://www.instagram.com/p/DKvRDbYqiW8/",
+          "type": "Video",
+          "productType": "clips",
+          "caption": "Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇\n\n1️⃣ Run a full thyroid panel—not just TSH\n2️⃣ Get your key nutrients: selenium, zinc, iodine, vitamin D, iron\n3️⃣ Manage your stress (your cortisol affects everything!)\n4️⃣ Support your gut health—absorption",
+          "hook": "Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇",
+          "views": 6215,
+          "likes": 20,
+          "comments": 0,
+          "timestamp": "2025-06-10T23:22:37.000Z",
+          "displayUrl": "https://scontent-iad3-1.cdninstagram.com/v/t51.75761-15/503415311_18152858242374852_2285341041976768915_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=MzY1MjIxMjgyNTE3NDcxMzc4ODE4MTUyODU4MjM2Mzc0ODUy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=JMNq_gIgBmwQ7kNvwGjG2EQ&_nc_oc=AdoZDF4otBqs1eUJKo9Z9V-lo_F-HGylMLEKxpRbJmw8Jh9m9UQPNMbaTdaBhn1OmvQvY8QbsnZ9c8ZKBJjee-a8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=ER4LHlXVTVIWesFwwVsKBQ&_nc_ss=7a22e&oh=00_AQFQR3XD1r-bNoZsXxGqNKC6BnEHZN2RZwvDq3HYcVdtVQ&oe=6A9651C6"
+        }
+      },
+      {
+        "username": "thyroidnation",
+        "followers": 117586,
+        "avgRecentViews": 7500.045454545455,
+        "topRecent": {
+          "owner": "thyroidnation",
+          "shortCode": "DcB7qAXE5VR",
+          "url": "https://www.instagram.com/p/DcB7qAXE5VR/",
+          "type": "Video",
+          "productType": "clips",
+          "caption": "Favorite non weight related reason for someone to go on a GLP-1 #glp #glp1 #glp1tips #longevity #longevitytips",
+          "hook": "Favorite non weight related reason for someone to go on a GLP-1 #glp #glp1 #glp1tips #longevity #longevitytips",
+          "views": 18566,
+          "likes": 422,
+          "comments": 37,
+          "timestamp": "2026-08-14T18:15:10.000Z",
+          "displayUrl": "https://instagram.fhnd2-1.fna.fbcdn.net/v/t51.71878-15/770427205_1748439206058006_1070788149337793732_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk2MzcxMTUxODQxMjA4NDU2MTE4NjA5MTU2OTg4MDM2NzQ5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=cg82Y48w8awQ7kNvwHpVdPE&_nc_oc=Adqx52NUK-3LndkYSAfuZR8a0LnI-7faYdj4SAZuQ-_yAF88tKTziwXX1Qe-RBVM83Ft6kwKNEGfLI1mxIih-O7r&_nc_ad=z-m&_nc_cid=1700&_nc_zt=23&_nc_ht=instagram.fhnd2-1.fna&_nc_gid=kuK3uu7keqFEaocRpUGnLg&_nc_ss=7a22e&oh=00_AQHMCX0eSewOa0Seu0KoIlVH17SfYElwQDkunza7t9JlNw&oe=6A9657CD"
+        }
+      },
+      {
+        "username": "izabellawentzpharmd",
+        "followers": 242358,
+        "avgRecentViews": 13454.666666666666,
+        "topRecent": {
+          "owner": "izabellawentzpharmd",
+          "shortCode": "DPq3t1Okuk3",
+          "url": "https://www.instagram.com/p/DPq3t1Okuk3/",
+          "type": "Video",
+          "productType": "clips",
+          "caption": "I asked 10 thyroid and hormone experts what wellness hacks they refuse to partake in... and they all said the same thing!\n\nYou’ve likely heard of cold plunging and all the benefits it supposedly provides, and for some people – it may help!\n\nBut health is nuanced. What works for one person might not ",
+          "hook": "I asked 10 thyroid and hormone experts what wellness hacks they refuse to partake in... and they all said the same thing",
+          "views": 55274,
+          "likes": 942,
+          "comments": 203,
+          "timestamp": "2025-10-11T13:00:00.000Z",
+          "displayUrl": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/563267284_18536457634053953_6162100676855830646_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzc0MTA0NzQ4MjU3MjAwNzczNTE4NTM2NDU3NjMxMDUzOTUz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=KKkzH1wIvM8Q7kNvwGAjm2a&_nc_oc=AdrMRlWsRCQZ51doRvixmGtyhVPC4DklQVmJDQxTV8-iNDFVk4ZagOAa57bFR0LBpZ2wcv0NVFT0lc2-8yWiu3cB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=K1g6bKNfWfBKgUbdUkKEVg&_nc_ss=7a22e&oh=00_AQFiB8DnTDUd-A3UklQItdtRJQBEnwi1KE4rOQ3CUaqQuw&oe=6A9645F2"
+        }
+      },
+      {
+        "username": "lisha_thyroid_rd",
+        "followers": 102236,
+        "avgRecentViews": 115269.41666666667,
+        "topRecent": {
+          "owner": "lisha_thyroid_rd",
+          "shortCode": "DEnaqbtSJI5",
+          "url": "https://www.instagram.com/p/DEnaqbtSJI5/",
+          "type": "Video",
+          "productType": "clips",
+          "caption": "Comment 'LABS' to test your thyroid ⬇️\n\n🦋January is Thyroid Awareness Month, here are some odd but common symptoms of Hashimoto's:\n\nSwollen neck or difficulty swallowing (enlarged thyroid or goiter).\n\nPuffy face (area around eyes) or swelling in the hands and feet.\n\nHigh cholesterol levels despite ",
+          "hook": "Comment 'LABS' to test your thyroid ⬇️",
+          "views": 1108908,
+          "likes": 7450,
+          "comments": 4528,
+          "timestamp": "2025-01-09T19:03:58.000Z",
+          "displayUrl": "https://scontent-nrt6-1.cdninstagram.com/v/t51.71878-15/473137931_1123589705830007_3888339982708010441_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzU0MTkxNjg5NzEyODI1NjA1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=z23JwVShJnYQ7kNvwGvEHsS&_nc_oc=AdqfjlyS6JuMh8WyrT6d1q3Nbd4xxfDgb6AoYr-6SC6NsFwj-J4KjH9Tor1fVN9YQSE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt6-1.cdninstagram.com&_nc_gid=DTlsoQoY4qpRm_tzF2AD4Q&_nc_ss=7a22e&oh=00_AQGC2-Bq8yKXLjelILEl35OhYWi0iwbIo5e28sSdDDxGwQ&oe=6A9668FB"
+        }
+      }
+    ]
+  },
+  "dmManager": {
+    "name": "DM Manager",
+    "headline": "5 reply drafts ready to paste",
+    "note": "Instagram doesn't allow DM automation for personal profiles — these are copy-paste drafts and a triage system, not auto-replies.",
+    "metrics": [
+      {
+        "label": "Reply drafts",
+        "value": "5"
+      },
+      {
+        "label": "Triage lanes",
+        "value": "4"
+      },
+      {
+        "label": "Mode",
+        "value": "copy-paste"
+      }
+    ],
+    "triage": [
+      {
+        "lane": "Potential client",
+        "rule": "Mentions symptoms + asks about working together → send 'discovery call' draft same day."
+      },
+      {
+        "lane": "Hub lead",
+        "rule": "Asks a general Hashimoto's question → answer briefly, point to the Healing Hub."
+      },
+      {
+        "lane": "Fellow practitioner",
+        "rule": "RD/MD asking shop talk → warm short reply, no pitch."
+      },
+      {
+        "lane": "Spam / collab bait",
+        "rule": "Generic 'collab?' with no context → ignore or decline template."
+      }
+    ],
+    "drafts": [
+      {
+        "for": "Potential client",
+        "text": "Thank you for trusting me with this — what you're describing is so common with Hashimoto's, and it's not in your head. The best next step is a discovery call so I can hear the full picture: [link]. I'd love to help you get answers."
+      },
+      {
+        "for": "Lab question",
+        "text": "Great question — I can't interpret labs safely over DM, but this is exactly what I walk through inside the Healing Hub / on a call. What I *can* say: a 'normal' TSH alone doesn't rule anything out."
+      },
+      {
+        "for": "Hub lead",
+        "text": "I made something for exactly this — the Hashimoto's Healing Hub. It's where I go deeper than I can on IG, and you can ask me questions directly: [link]."
+      },
+      {
+        "for": "Supplement question",
+        "text": "Careful with that one — it depends on your meds and labs. Quick rule I give everyone: keep magnesium, calcium and iron 4 hours away from thyroid medication."
+      },
+      {
+        "for": "Decline collab",
+        "text": "Thank you for thinking of me! I keep partnerships limited to products I already use with clients, so I'll pass for now — wishing you the best with the launch."
+      }
+    ]
+  }
+}

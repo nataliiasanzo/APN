@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APN Content Agent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --wash: #f6f8f7;
+    --ink: #17251f;
+    --ink-2: #5b6b64;
+    --ink-3: #93a29b;
+    --accent: #15604e;
+    --accent-soft: #e7f1ee;
+    --line: #e6ebe9;
+    --shadow: 0 1px 2px rgba(23,37,31,.05), 0 8px 24px rgba(23,37,31,.07);
+    --shadow-lift: 0 2px 4px rgba(23,37,31,.06), 0 16px 40px rgba(23,37,31,.12);
+    --radius: 16px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Inter, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding: 32px clamp(16px, 4vw, 48px) 64px;
+  }
+  a { color: inherit; }
+
+  header { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
+  header h1 { font-size: 22px; font-weight: 800; letter-spacing: -.02em; }
+  header .handle { color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none; }
+  header .fresh { margin-left: auto; color: var(--ink-3); font-size: 12.5px; }
+  .sub { color: var(--ink-2); font-size: 13.5px; margin-bottom: 24px; }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; margin-bottom: 28px; }
+  .kpi {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 18px 20px 16px; cursor: pointer;
+    transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .kpi:hover { box-shadow: var(--shadow-lift); transform: translateY(-1px); }
+  .kpi .label { font-size: 12px; font-weight: 600; color: var(--ink-2); text-transform: uppercase; letter-spacing: .06em; }
+  .kpi .value { font-size: 30px; font-weight: 800; letter-spacing: -.03em; margin: 6px 0 2px; font-variant-numeric: tabular-nums; }
+  .kpi .hint { font-size: 12.5px; color: var(--ink-3); }
+
+  h2 { font-size: 15px; font-weight: 700; margin: 26px 0 12px; display: flex; align-items: center; gap: 8px; }
+  h2 .tick { width: 8px; height: 8px; border-radius: 2px; background: var(--accent); display: inline-block; }
+
+  .agents { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+  .agent {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 18px; cursor: pointer;
+    transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .agent:hover { box-shadow: var(--shadow-lift); transform: translateY(-1px); }
+  .agent .top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .agent .avatar {
+    width: 34px; height: 34px; border-radius: 10px; background: var(--accent-soft);
+    display: grid; place-items: center; font-size: 16px;
+  }
+  .agent .name { font-weight: 700; font-size: 14px; }
+  .agent .status { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--ink-2); margin-top: 1px; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: .35; transform: scale(.85);} 50% { opacity: 1; transform: scale(1.15);} }
+  .working { display: inline-flex; gap: 3px; margin-left: 2px; }
+  .working i { width: 4px; height: 4px; border-radius: 50%; background: var(--accent); animation: bounce 1.2s infinite; }
+  .working i:nth-child(2) { animation-delay: .15s; } .working i:nth-child(3) { animation-delay: .3s; }
+  @keyframes bounce { 0%,60%,100% { transform: translateY(0); opacity:.4;} 30% { transform: translateY(-4px); opacity:1;} }
+  .agent .headline { font-size: 13px; color: var(--ink); font-weight: 600; margin-bottom: 10px; min-height: 34px; }
+  .agent .mrow { display: flex; justify-content: space-between; font-size: 12.5px; padding: 5px 0; border-top: 1px dashed var(--line); }
+  .agent .mrow .ml { color: var(--ink-2); } .agent .mrow .mv { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .agent .open { margin-top: 10px; font-size: 12px; font-weight: 600; color: var(--accent); }
+
+  .cols { display: grid; grid-template-columns: 1.4fr 1fr; gap: 14px; align-items: start; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  .panel {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 18px 20px;
+  }
+  .row { display: grid; grid-template-columns: 22px 1fr 120px 64px; gap: 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--wash); cursor: pointer; }
+  .row:first-of-type { border-top: none; }
+  .row:hover .rt { color: var(--accent); }
+  .row .rank { color: var(--ink-3); font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .row .rt { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .row .rd { font-size: 11.5px; color: var(--ink-3); }
+  .bar { height: 8px; border-radius: 0 4px 4px 0; background: var(--accent); min-width: 2px; }
+  .row .rv { font-size: 12.5px; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+  .crow { display: grid; grid-template-columns: 1fr 90px 90px; gap: 10px; align-items: center; padding: 9px 0; border-top: 1px solid var(--wash); }
+  .crow:first-of-type { border-top: none; }
+  .crow .cn { font-size: 13px; font-weight: 600; }
+  .crow .cn a { text-decoration: none; }
+  .crow .cn .you { color: var(--accent); font-size: 11px; font-weight: 700; margin-left: 6px; }
+  .crow .cf, .crow .cv { font-size: 12.5px; text-align: right; font-variant-numeric: tabular-nums; }
+  .thead { display: grid; grid-template-columns: 1fr 90px 90px; gap: 10px; font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; padding-bottom: 6px; }
+  .thead span:nth-child(n+2) { text-align: right; }
+
+  dialog {
+    border: none; border-radius: 20px; box-shadow: var(--shadow-lift);
+    padding: 0; width: min(680px, 92vw); max-height: 84vh;
+  }
+  dialog::backdrop { background: rgba(23,37,31,.35); }
+  .mhead { display: flex; align-items: center; gap: 10px; padding: 20px 24px 12px; position: sticky; top: 0; background: var(--surface); border-bottom: 1px solid var(--line); }
+  .mhead .avatar { width: 34px; height: 34px; border-radius: 10px; background: var(--accent-soft); display: grid; place-items: center; font-size: 16px; }
+  .mhead h3 { font-size: 16px; font-weight: 800; }
+  .mhead .close { margin-left: auto; border: none; background: var(--wash); border-radius: 8px; width: 30px; height: 30px; cursor: pointer; font-size: 14px; color: var(--ink-2); }
+  .mbody { padding: 16px 24px 24px; overflow-y: auto; max-height: calc(84vh - 70px); }
+  .mbody .note { background: var(--accent-soft); color: var(--accent); font-size: 12.5px; padding: 10px 12px; border-radius: 10px; margin-bottom: 14px; }
+  .item { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+  .item .it { font-weight: 700; font-size: 13.5px; margin-bottom: 4px; }
+  .item .is { font-size: 12px; color: var(--ink-2); margin-bottom: 6px; }
+  .item .ib { font-size: 13px; color: var(--ink); line-height: 1.5; }
+  .item .ib ul { margin: 6px 0 0 18px; }
+  .item a { color: var(--accent); font-size: 12px; font-weight: 600; text-decoration: none; }
+  .chip { display: inline-block; background: var(--wash); border-radius: 999px; padding: 2px 9px; font-size: 11px; font-weight: 600; color: var(--ink-2); margin-right: 6px; }
+  .err { padding: 40px; text-align: center; color: var(--ink-2); font-size: 14px; line-height: 1.7; }
+  code { background: var(--wash); padding: 2px 6px; border-radius: 6px; font-size: .92em; }
+</style>
+</head>
+<body>
+  <div id="app"><div class="err">Loading…</div></div>
+  <dialog id="modal"></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
