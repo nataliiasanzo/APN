@@ -119,7 +119,7 @@ function slimPost(p) {
   const me = profiles[ME];
   if (!me) throw new Error(`Profile details for ${ME} missing — got: ${Object.keys(profiles).join(", ")}`);
 
-  const mine = myPosts.filter((p) => !p.error).map(slimPost).sort((a, b) => rankKey(b) - rankKey(a));
+  const mine = myPosts.filter((p) => !p.error).sort((a, b) => rankKey(b) - rankKey(a)).map(slimPost);
   const totalViews = mine.reduce((s, p) => s + (p.views || 0), 0);
   const totalLikes = mine.reduce((s, p) => s + (p.likes || 0), 0);
   const totalComments = mine.reduce((s, p) => s + (p.comments || 0), 0);
@@ -128,7 +128,7 @@ function slimPost(p) {
   const competitors = COMPETITORS.map((h) => ({
     ...(profiles[h] || { username: h }),
     recentPosts: compPosts.filter((p) => !p.error && p.ownerUsername === h)
-      .map(slimPost).sort((a, b) => rankKey(b) - rankKey(a)),
+      .sort((a, b) => rankKey(b) - rankKey(a)).map(slimPost),
   }));
 
   const data = {
