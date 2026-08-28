@@ -17,8 +17,16 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..");
 const ME = "all.purpose.nutrition";
 const COMPETITORS = ["palomahealth", "thyroidnation", "izabellawentzpharmd", "lisha_thyroid_rd"];
-const MY_POSTS_LIMIT = 1000; // full history — her account is well under this
+const OUT = path.join(ROOT, "dashboard", "data.json");
+
+// Incremental by default: with a cached data.json, only recent posts are pulled
+// and merged into the cached history (keeps weekly Apify cost ~10x lower).
+// Run with --full to re-scrape the whole history.
+const FULL = process.argv.includes("--full");
+const cached = !FULL && fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : null;
+const MY_POSTS_LIMIT = cached ? 60 : 1000; // 1000 ≈ full history on first run
 const COMPETITOR_POSTS_LIMIT = 25; // recent posts per competitor
+console.log(cached ? `Incremental pull: last ${MY_POSTS_LIMIT} posts, merging into ${cached.allPosts.length} cached` : "Full pull: entire post history");
 
 // --- tiny .env reader (no dependencies) ---
 function loadEnv() {
@@ -119,7 +127,13 @@ function slimPost(p) {
   const me = profiles[ME];
   if (!me) throw new Error(`Profile details for ${ME} missing — got: ${Object.keys(profiles).join(", ")}`);
 
-  const mine = myPosts.filter((p) => !p.error).sort((a, b) => rankKey(b) - rankKey(a)).map(slimPost);
+  const freshSlim = myPosts.filter((p) => !p.error).map(slimPost);
+  // fresh metrics win; cached posts fill in the older history
+  const byCode = new Map();
+  for (const p of cached?.allPosts || []) if (p.shortCode) byCode.set(p.shortCode, p);
+  for (const p of freshSlim) if (p.shortCode) byCode.set(p.shortCode, p);
+  const slimRank = (p) => p.views ?? p.likes ?? 0;
+  const mine = [...byCode.values()].sort((a, b) => slimRank(b) - slimRank(a));
   const totalViews = mine.reduce((s, p) => s + (p.views || 0), 0);
   const totalLikes = mine.reduce((s, p) => s + (p.likes || 0), 0);
   const totalComments = mine.reduce((s, p) => s + (p.comments || 0), 0);
