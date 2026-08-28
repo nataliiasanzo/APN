@@ -23,6 +23,12 @@ const AGENT_META = {
 let DATA, AGENTS;
 
 async function load() {
+  // self-contained builds (scripts/build-artifact.js) embed the data inline
+  if (window.APN_EMBED) {
+    ({ data: DATA, agents: AGENTS } = window.APN_EMBED);
+    render();
+    return;
+  }
   try {
     [DATA, AGENTS] = await Promise.all([
       fetch("data.json").then((r) => r.json()),
