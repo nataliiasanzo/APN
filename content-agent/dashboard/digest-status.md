@@ -1,7 +1,7 @@
-# Telegram Digest Send Status
+# Telegram digest — 2026-08-28
 
-- **Date:** 2026-08-27
-- **Outcome:** SENT
-- **Details:** Digest delivered to Telegram successfully. Chat id was auto-discovered by `send-digest.js` (the recipient had messaged the bot beforehand) and persisted for future runs.
-- **Telegram API error:** none
-- **Chat id:** 5190731055
+**Status: NOT SENT**
+
+The weekly cycle stopped before the digest step: the Apify data pull failed with `403 — Monthly usage hard limit exceeded` (failed identically on one retry), so there was no fresh data to report. See `pull-summary.md` for details and how to resolve.
+
+No digest was sent to avoid reporting stale numbers as this week's stats.
