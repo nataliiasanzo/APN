@@ -78,6 +78,9 @@ const esc = (s) => String(s ?? "").replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<"
     ``,
     `🗓️ <b>Next up (${esc(nextSlot?.day)}):</b> ${esc(nextSlot?.format)} — ${esc(nextSlot?.item)}`,
     ``,
+    process.env.PULL_FAILED
+      ? `⚠️ This week's data pull failed (likely Apify quota) — numbers are from the last successful pull.`
+      : "",
     `Data pulled ${new Date(data.generatedAt).toLocaleDateString("en-US", { month: "short", day: "numeric" })} · ${s.postsAnalyzed} posts analyzed`,
   ]
     .filter((l) => l !== false && l !== "" || l === "")
