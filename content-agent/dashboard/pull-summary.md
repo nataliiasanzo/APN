@@ -1,28 +1,24 @@
-# Data pull — 2026-08-28
+# Data pull — 2026-08-31
 
-**Status: FAILED** (weekly run cycle stopped; dashboard `data.json` and `agents.json` were NOT refreshed and still hold the previous pull's data)
+**Status: FAILED — cycle continued on cached data** (`dashboard/data.json` still holds the Aug 27 pull)
 
-Console output of `node scripts/pull-data.js`:
+Console output of the pull step:
 
 ```
 === Pulling Instagram data via Apify ===
+Incremental pull: last 60 posts, merging into 999 cached
 FAILED: Apify 403 on /acts/apify~instagram-scraper/runs: {
   "error": {
     "type": "platform-feature-disabled",
     "message": "Monthly usage hard limit exceeded"
   }
 }
-```
 
-The step was retried once per the run policy and failed identically both times.
+Pull failed — continuing with cached data (digest will say so).
+```
 
 ## Diagnosis
 
-This is not a code bug — the Apify account has hit its **monthly usage hard limit**, so the platform refuses to start any new actor runs (HTTP 403, `platform-feature-disabled`). Nothing in the repo can fix this.
+Same as the Aug 28 run: the Apify account's **monthly usage hard limit** is exhausted, so the platform refuses to start actor runs (HTTP 403, `platform-feature-disabled`). Not a code bug. The monthly cycle should reset around Sep 1; the next weekly run (Sep 7) should pull fresh data. If it fails again, raise the limit in Apify Console → Billing → Limits.
 
-## To resolve
-
-- Wait for the Apify monthly usage cycle to reset, **or**
-- Raise/remove the monthly usage hard limit (Apify Console → Billing → Limits), or upgrade the plan.
-
-Once the limit clears, the next weekly run will refresh everything automatically, or run `node scripts/run-all.js` manually from `content-agent/`.
+Thanks to the new fallback in `run-all.js`, the rest of the cycle still ran: `agents.json` was regenerated from cached data and the Telegram digest went out flagged as stale.
