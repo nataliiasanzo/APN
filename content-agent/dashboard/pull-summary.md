@@ -1,4 +1,4 @@
-# Data pull — 2026-09-14
+# Data pull — 2026-09-21
 
 **Status: FAILED — cycle continued on cached data** (`dashboard/data.json` still holds the Aug 27 pull; failed identically on one retry)
 
@@ -19,8 +19,8 @@ Pull failed — continuing with cached data (digest will say so).
 
 ## Diagnosis — still needs your action
 
-**Fourth consecutive failed pull** (Aug 28, Aug 31, Sep 7, Sep 14), all with the same 403 `platform-feature-disabled` / "Monthly usage hard limit exceeded". Two weeks into September the error is unchanged, so this is not a billing-cycle rollover issue: the account's **monthly usage hard limit is set at or below what one pull costs** (or the plan is out of credit entirely).
+**Fifth consecutive failed pull** (Aug 28, Aug 31, Sep 7, Sep 14, Sep 21), always the same 403 `platform-feature-disabled` / "Monthly usage hard limit exceeded". Three weeks into September this is definitively not a billing-cycle rollover: the account's **monthly usage hard limit is set at or below the cost of a single pull**, or the plan/credit is exhausted.
 
-**To fix:** Apify Console → Billing → Limits → raise or remove the "monthly usage hard limit" (or top up / upgrade the plan). One weekly incremental pull is three small actor runs, so even a modest limit should suffice once it's not zero.
+**To fix:** Apify Console → Billing → Limits → raise or remove the "monthly usage hard limit" (or top up / upgrade the plan). One weekly incremental pull is three small actor runs.
 
-Until then every weekly digest keeps reporting the cached Aug 27 numbers with the ⚠️ stale-data warning.
+The dashboard and digest have been running on the same cached Aug 27 data for a month now.
