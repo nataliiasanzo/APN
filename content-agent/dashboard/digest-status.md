@@ -1,12 +1,10 @@
 # Digest Status
 
 **Status:** SENT ✓
-**Run date:** 2026-09-21 (weekly scheduled run)
-**Mode:** cached-data fallback (Apify limit still blocking — 5th week, see `pull-summary.md`)
-**Data source:** cached Aug 27 data
+**Run date:** 2026-09-28 (weekly scheduled run)
+**Mode:** full cycle with FRESH data — first successful pull since Aug 27
+**Data source:** live Apify pull (incremental, merged into full history)
 
-The Apify pull failed again (monthly usage hard limit — the account limit needs
-raising; waiting has not fixed it). The cycle fell back to cached data:
-`agents.json` was regenerated (Ideator: 5 ideas, Scripts: 3, Calendar: 7 days,
-Analyst insights: 4, DM drafts: 5) and the Telegram digest was delivered via
-api.telegram.org with the ⚠️ stale-data warning line.
+`agents.json` regenerated from fresh data (Ideator: 6 ideas, Scripts: 3,
+Calendar: 7 days, Analyst insights: 4, DM drafts: 5) and the Telegram digest
+was delivered via api.telegram.org with current numbers — no stale-data warning.
