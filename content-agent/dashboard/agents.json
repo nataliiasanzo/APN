@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-28T13:10:18.941Z",
-  "dataGeneratedAt": "2026-09-28T13:10:18.795Z",
+  "generatedAt": "2026-10-05T13:09:57.753Z",
+  "dataGeneratedAt": "2026-10-05T13:09:57.625Z",
   "ideator": {
     "name": "Ideator",
-    "headline": "6 ideas scouted from real winners",
+    "headline": "4 ideas scouted from real winners",
     "metrics": [
       {
         "label": "Ideas ready",
-        "value": "6"
+        "value": "4"
       },
       {
         "label": "From competitors",
@@ -29,23 +29,9 @@
       {
         "title": "Your take on the Hashimoto's diet",
         "topic": "the Hashimoto's diet",
-        "source": "@lisha_thyroid_rd — 279.9K views: \"How many of these are you?\"",
+        "source": "@lisha_thyroid_rd — 329.2K views: \"How many of these are you?\"",
         "sourceUrl": "https://www.instagram.com/p/DdraI5apBdU/",
         "angle": "Same topic, Hashimoto's-specific: why generic thyroid advice lands differently when you have autoimmune disease."
-      },
-      {
-        "title": "Steal the format, not the words — @lisha_thyroid_rd's caption-light Reel",
-        "topic": null,
-        "source": "@lisha_thyroid_rd — 140.7K views with almost no caption",
-        "sourceUrl": "https://www.instagram.com/p/DcRYN7OJbwa/",
-        "angle": "The format did the work, not the words. Remix it with one Hashimoto's punchline on screen and let the visual carry it."
-      },
-      {
-        "title": "Your take on cortisol and your thyroid",
-        "topic": "cortisol and your thyroid",
-        "source": "@izabellawentzpharmd — 61K views: \"What if we’ve been thinking about cortisol all wrong?\"",
-        "sourceUrl": "https://www.instagram.com/p/DdoXjdkhR5U/",
-        "angle": "Turn it into a self-ID question (your 4.8M-view format): make the viewer find themselves in stage 1–2–3."
       },
       {
         "title": "Sequel to your #1: \"Which stage of Hashimoto’s are you in?\"",
@@ -110,10 +96,10 @@
         "cta": "Save this for your next lab review."
       },
       {
-        "idea": "Your take on cortisol and your thyroid",
+        "idea": "Sequel to your #1: \"Which stage of Hashimoto’s are you in?\"",
         "hooks": [
-          "Everything you've heard about cortisol and your thyroid is only half true.",
-          "Cortisol and your thyroid — my Hashimoto's patients ask me about this every single week.",
+          "Everything you've heard about the stages of Hashimoto's is only half true.",
+          "The stages of Hashimoto's — my Hashimoto's patients ask me about this every single week.",
           "If your TSH is \"normal\" but you still feel exhausted, this is for you."
         ],
         "beats": [
@@ -145,43 +131,43 @@
     "calendar": [
       {
         "day": "Tuesday",
-        "date": "2026-09-29",
+        "date": "2026-10-06",
         "format": "Reel",
         "item": "Your take on thyroid labs"
       },
       {
         "day": "Wednesday",
-        "date": "2026-09-30",
+        "date": "2026-10-07",
         "format": "Story poll",
         "item": "Poll: 'What's your biggest Hashimoto's frustration right now?' (feeds next week's Ideator)"
       },
       {
         "day": "Thursday",
-        "date": "2026-10-01",
+        "date": "2026-10-08",
         "format": "Carousel",
         "item": "Your take on the Hashimoto's diet"
       },
       {
         "day": "Friday",
-        "date": "2026-10-02",
+        "date": "2026-10-09",
         "format": "Reel",
-        "item": "Your take on cortisol and your thyroid"
+        "item": "Sequel to your #1: \"Which stage of Hashimoto’s are you in?\""
       },
       {
         "day": "Saturday",
-        "date": "2026-10-03",
+        "date": "2026-10-10",
         "format": "Quote card",
         "item": "Pull the strongest line from this week's top comment"
       },
       {
         "day": "Sunday",
-        "date": "2026-10-04",
+        "date": "2026-10-11",
         "format": "Story Q&A",
         "item": "Answer 3 DMs publicly (anonymized) — DM Manager picks them"
       },
       {
         "day": "Monday",
-        "date": "2026-10-05",
+        "date": "2026-10-12",
         "format": "Repost",
         "item": "Re-share your evergreen #1 (4.8M views) to Stories"
       }
@@ -189,32 +175,32 @@
   },
   "analyst": {
     "name": "Analyst",
-    "headline": "452.8K views in the last 30 days",
+    "headline": "335.7K views in the last 30 days",
     "metrics": [
       {
         "label": "Views, last 30d",
-        "value": "452.8K"
+        "value": "335.7K"
       },
       {
         "label": "vs prior 30d",
-        "value": "+317%"
+        "value": "+28%"
       },
       {
         "label": "Posts, last 30d",
-        "value": "44"
+        "value": "46"
       }
     ],
     "insights": [
-      "Reels average 20K views across 583 posts — video is your reach engine; carousels average 143 likes and do their work in saves, not views.",
-      "Your last 20 posts average 5.3K views with 63.5K followers — @palomahealth averages 2.4K, @thyroidnation averages 8.4K, @izabellawentzpharmd averages 22.4K, @lisha_thyroid_rd averages 142.9K.",
-      "Last 30 days: 44 posts, 452.8K views (+317% vs the 30 days before).",
+      "Reels average 19.9K views across 588 posts — video is your reach engine; carousels average 143 likes and do their work in saves, not views.",
+      "Your last 20 posts average 1.9K views with 63.8K followers — @palomahealth averages 2.4K, @thyroidnation averages 6.8K, @izabellawentzpharmd averages 32.7K, @lisha_thyroid_rd averages 122.7K.",
+      "Last 30 days: 46 posts, 335.7K views (+28% vs the 30 days before).",
       "Your #1 post of all time (4.8M views) is a self-identification question — \"Which stage of Hashimoto’s are you in?\". That format is repeatable."
     ],
     "benchmarks": [
       {
         "username": "palomahealth",
-        "followers": 25207,
-        "avgRecentViews": 2403.4,
+        "followers": 25193,
+        "avgRecentViews": 2404.2,
         "topRecent": {
           "owner": "palomahealth",
           "shortCode": "DKvRDbYqiW8",
@@ -223,55 +209,55 @@
           "productType": "clips",
           "caption": "Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇\n\n1️⃣ Run a full thyroid panel—not just TSH\n2️⃣ Get your key nutrients: selenium, zinc, iodine, vitamin D, iron\n3️⃣ Manage your stress (your cortisol affects everything!)\n4️⃣ Support your gut health—absorption",
           "hook": "Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇",
-          "views": 6232,
+          "views": 6233,
           "likes": 20,
           "comments": 0,
           "timestamp": "2025-06-10T23:22:37.000Z",
-          "displayUrl": "https://instagram.fgdl1-4.fna.fbcdn.net/v/t51.75761-15/503415311_18152858242374852_2285341041976768915_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=MzY1MjIxMjgyNTE3NDcxMzc4ODE4MTUyODU4MjM2Mzc0ODUy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=iXs4vxVq4TwQ7kNvwFYmbEp&_nc_oc=Adr4aa3UEdvt1_pcz3_Q1tpi6y5mkzK9MNGW3BM6T9wsgWC9WZmn8i_M51M6tZItYHw&_nc_zt=23&_nc_ht=instagram.fgdl1-4.fna&_nc_gid=blNxIlEjiFZ9H8T93eoT_g&_nc_ss=73689&oh=00_AQNJ4gt5CSP0Q97YMWlvBE6XO70h7--UDO1rJ9gFoibhBw&oe=6AC04986"
+          "displayUrl": "https://instagram.fbcn15-1.fna.fbcdn.net/v/t51.75761-15/503415311_18152858242374852_2285341041976768915_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=MzY1MjIxMjgyNTE3NDcxMzc4ODE4MTUyODU4MjM2Mzc0ODUy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Jy0GuJsGH9wQ7kNvwFjG9Pf&_nc_oc=AdpEKbnBBrCA-CmyWVQDAaE6rsXwQvfkYE2odeQPtA0PDQSDu1aDxWqAdvnbDrPPltQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbcn15-1.fna&_nc_gid=uFAvmhgiXjEJj4KGfexaYQ&_nc_ss=7a22e&oh=00_AQM_3Tl1K78JWjyATfmcoiFNF1m9lF-j8O5usZPUtlUvJA&oe=6AC98406"
         }
       },
       {
         "username": "thyroidnation",
-        "followers": 117988,
-        "avgRecentViews": 8352.2,
+        "followers": 118059,
+        "avgRecentViews": 6836.066666666667,
         "topRecent": {
           "owner": "thyroidnation",
-          "shortCode": "DdMmLFlCb0w",
-          "url": "https://www.instagram.com/p/DdMmLFlCb0w/",
+          "shortCode": "Ddo68kPjUJ6",
+          "url": "https://www.instagram.com/p/Ddo68kPjUJ6/",
           "type": "Video",
           "productType": "clips",
-          "caption": "A very hard truth for so many. #Thyroid #Hypothyroidism #ThyroidProblems #Hashimoto #Hashimotos",
-          "hook": "A very hard truth for so many. #Thyroid #Hypothyroidism #ThyroidProblems #Hashimoto #Hashimotos",
-          "views": 19349,
-          "likes": 102,
-          "comments": 2,
-          "timestamp": "2026-09-12T18:10:03.000Z",
-          "displayUrl": "https://instagram.fblq3-1.fna.fbcdn.net/v/t51.71878-15/808190953_1752780722599334_4468670958350415632_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=Mzk4NDcyNzY1Nzk4NzgxNjc1MjE4NjE4OTMyNjE3MDM2NzQ5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=nCy7XCxOD-wQ7kNvwFCOEeS&_nc_oc=Ado8Ay9Z67hj0NCPnidP7kGU940LcUQRpnu7XVibIKy6fzOld70N0uuKx-njFZT8mAU&_nc_ad=z-m&_nc_cid=1007&_nc_zt=23&_nc_ht=instagram.fblq3-1.fna&_nc_gid=n5gIOVkk65Jetn4xQSNpmg&_nc_ss=7a22e&oh=00_AQMrGMwgU00OegCCNaHMJtun5E8Jbr4VS3CM3SCnVm7b0w&oe=6AC04BD2"
+          "caption": "When the girls with hypothyroidism just CANNOT lose the weight #hypothyroidweightgain #hypothyroid #hypothyroidism #hypothyroidismcheck #hypothyroidismproblems",
+          "hook": "When the girls with hypothyroidism just CANNOT lose the weight #hypothyroidweightgain #hypothyroid #hypothyroidism #hypo",
+          "views": 17592,
+          "likes": 376,
+          "comments": 13,
+          "timestamp": "2026-09-23T18:10:43.000Z",
+          "displayUrl": "https://scontent-nrt1-2.cdninstagram.com/v/t51.71878-15/815061365_1092491156839978_4371335903993159530_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk5MjcwMDMxODQ0NTgxNDM5NDE4NjIyNTE1MDMxMDM2NzQ5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=-0X2Kj85z84Q7kNvwFbSaQc&_nc_oc=Adp-e2i4LLBos_4v3HOpeLkjZf13GHOz8fs5dnJNyIJ7nw28dNjWjzWJNsdbf-faa8UXj57ajrE66fobIo6YNKSm&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_gid=Blz3ZSMaPpjhIlHrIhiExg&_nc_ss=7a22e&oh=00_AQPJuuFMj9TnDwo3NXsOlul_RUq-3XdJgcqp2i9I0zF9JA&oe=6AC97437"
         }
       },
       {
         "username": "izabellawentzpharmd",
-        "followers": 243558,
-        "avgRecentViews": 22447,
+        "followers": 244638,
+        "avgRecentViews": 32660.875,
         "topRecent": {
           "owner": "izabellawentzpharmd",
-          "shortCode": "DdoXjdkhR5U",
-          "url": "https://www.instagram.com/p/DdoXjdkhR5U/",
+          "shortCode": "Dd1kJi2Bo8V",
+          "url": "https://www.instagram.com/p/Dd1kJi2Bo8V/",
           "type": "Video",
           "productType": "clips",
-          "caption": "What if we’ve been thinking about cortisol all wrong?\n\nWe’ve been taught to think of cortisol as the “bad” stress hormone. But in my conversation with naturopathic doctor and author Dr. Erin Kinney (@drkinney), we explore a very different way of looking at it.\n\nDr. Kinney explains her “cortisol bank",
-          "hook": "What if we’ve been thinking about cortisol all wrong?",
-          "views": 61020,
-          "likes": 1226,
-          "comments": 40,
-          "timestamp": "2026-09-23T13:00:07.000Z",
-          "displayUrl": "https://instagram.fcpq17-1.fna.fbcdn.net/v/t51.82787-15/794992486_18634430584053953_8338245162545416197_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5MjU0NDY2MTY2NjYwMjU4MDE4NjM0NDMwNTgxMDUzOTUz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=4SFCLp596lkQ7kNvwGY2HWi&_nc_oc=Adp6a6qFINmATx6CJJQmGlOZVxsoHJSuif6Qx97s-5L_QUlIKhCjEF8MPXR4rUbv4Tg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcpq17-1.fna&_nc_gid=OEtQ8BK4PdbJO-PyIC8Z0w&_nc_ss=7a22e&oh=00_AQOtWkSxq4ijbNNfY6JE-_w6yTBEDf6b2ptIK3d5G7qJaw&oe=6AC03712"
+          "caption": "True story!\n\nBone broth is a delicious way to support your gut and skin! It’s a rich source of protein, collagen, and L-glutamine. It’s one of my favorite additions to a gut-healing, Hashimoto’s-friendly diet.\n\nSadly, it doesn’t work when your husband pours it down the drain.\n\nDon’t worry, no bone b",
+          "hook": "True story!",
+          "views": 160662,
+          "likes": 227,
+          "comments": 88,
+          "timestamp": "2026-09-28T16:00:06.000Z",
+          "displayUrl": "https://instagram.fgdl3-1.fna.fbcdn.net/v/t51.82787-15/825269707_18636861727053953_624866931145225296_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=Mzk5NjI1OTIyOTkyNDQ5NTEyNTE4NjM2ODYxNzI0MDUzOTUz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=E1s42cjJUgEQ7kNvwHvncsu&_nc_oc=AdqM803eq-IjqyBpNEJKQdqSFZI4d3HgX0VBe9MRyVju6yZwtRyGyxFoN1mT1Wy2WWf1c9QqnJIE5nLHU2TDMS2_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fgdl3-1.fna&_nc_gid=1EnhhOOULAgLhP4uyo78Hg&_nc_ss=7a22e&oh=00_AQNo681NHS00VlgI6TmtfQrfE-_a9rR-8LD3jl6SF_azsw&oe=6AC9811C"
         }
       },
       {
         "username": "lisha_thyroid_rd",
-        "followers": 104662,
-        "avgRecentViews": 142863.38461538462,
+        "followers": 105185,
+        "avgRecentViews": 122655.06666666667,
         "topRecent": {
           "owner": "lisha_thyroid_rd",
           "shortCode": "DEnaqbtSJI5",
@@ -280,11 +266,11 @@
           "productType": "clips",
           "caption": "Comment 'LABS' to test your thyroid ⬇️\n\n🦋January is Thyroid Awareness Month, here are some odd but common symptoms of Hashimoto's:\n\nSwollen neck or difficulty swallowing (enlarged thyroid or goiter).\n\nPuffy face (area around eyes) or swelling in the hands and feet.\n\nHigh cholesterol levels despite ",
           "hook": "Comment 'LABS' to test your thyroid ⬇️",
-          "views": 1112836,
-          "likes": 7503,
-          "comments": 4572,
+          "views": 1113491,
+          "likes": 7509,
+          "comments": 4576,
           "timestamp": "2025-01-09T19:03:58.000Z",
-          "displayUrl": "https://instagram.fmad6-1.fna.fbcdn.net/v/t51.71878-15/473137931_1123589705830007_3888339982708010441_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzU0MTkxNjg5NzEyODI1NjA1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=3fo9AIEezzQQ7kNvwEovDIp&_nc_oc=Adp_YhvMKdsPtF-Z8bFbp14t7k6hdXGQLSyW-Xmw1x2umkI0f6LtRJTPNfcuBASSVgQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fmad6-1.fna&_nc_gid=3w06maJRPHpqiWGybVHgmw&_nc_ss=7a22e&oh=00_AQPJjHL1HrGQWiNxhWWyNfx6L5Y69Dta21QP2ETdz3mYvQ&oe=6AC0287B"
+          "displayUrl": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.71878-15/473137931_1123589705830007_3888339982708010441_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzU0MTkxNjg5NzEyODI1NjA1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=i81dLyDFyJ4Q7kNvwF5tX8Y&_nc_oc=Adq6C6q-jcpqWNiJRtzKEtmMnfr5qd9SdWwf0tFL6W4Vaece4Ty-Aj4sc2M24yjS7gBs0_Gyq3ldaJP-CIocD-IJ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=ykxl7MZeMum6DOkbR_OKnQ&_nc_ss=7a22e&oh=00_AQP5X28wsNaalHzFBXbeK1coplZ2u916ARG4dS5nqmOKVw&oe=6AC962FB"
         }
       }
     ]
