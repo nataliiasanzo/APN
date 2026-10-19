@@ -1,7 +1,7 @@
 # Digest Status
 
 **Status:** SENT ✓
-**Run date:** 2026-10-12 (weekly scheduled run)
+**Run date:** 2026-10-19 (weekly scheduled run)
 **Mode:** full cycle with fresh data
 **Data source:** live Apify pull (incremental, merged into full history)
 

@@ -1,12 +1,12 @@
-# Data pull — 2026-10-12
+# Data pull — 2026-10-19
 
-**Status: SUCCESS ✓** (third consecutive clean weekly run)
+**Status: SUCCESS ✓** (fourth consecutive clean weekly run)
 
-Console summary of `node scripts/pull-data.js` (incremental: last 60 posts merged into 1056 cached):
+Console summary of `node scripts/pull-data.js` (incremental: last 60 posts merged into 1070 cached):
 
 ```
-@all.purpose.nutrition — 64,026 followers, 2,228 posts (1070 analyzed)
-Total views across history: 11,726,590 | avg engagement: 0.35%
+@all.purpose.nutrition — 64,222 followers, 2,242 posts (1084 analyzed)
+Total views across history: 11,748,721 | avg engagement: 0.34%
 
 TOP 10 POSTS OF ALL TIME (by views):
  1. 4,803,268 views | 4,587 likes | 2025-05-17 | Which stage of Hashimoto's are you in?👇
@@ -21,10 +21,10 @@ TOP 10 POSTS OF ALL TIME (by views):
 10. 78,714 views | 1,676 likes | 2026-07-07 | Ten supplements for Hashimoto's that actually earn their spot.
 
 Competitors:
-  @palomahealth: 25,186 followers — top recent: 6,235 views | Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇
-  @thyroidnation: 118,146 followers — top recent: 18,339 views | When the girls with hypothyroidism just CANNOT lose the weight #hypothyroidweightgain #hypothyroid #hypothyroidism #hypo
-  @izabellawentzpharmd: 246,055 followers — top recent: 68,863 views | If you have Hashimoto's and you're having trouble falling asleep and/or waking up in the middle of the night—especially
-  @lisha_thyroid_rd: 105,483 followers — top recent: 1,114,485 views | Comment 'LABS' to test your thyroid ⬇️
+  @palomahealth: 25,184 followers — top recent: 6,239 views | Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇
+  @thyroidnation: 118,337 followers — top recent: 44,832 views | Hashimoto's can be reversed! I've been in remission for 12+ years. Medicine often says it's not possible, but it is. Red
+  @izabellawentzpharmd: 246,911 followers — top recent: 81,060 views | Please don't hate me but two Brazil nuts a day won't do much for your Hashimoto's!
+  @lisha_thyroid_rd: 105,649 followers — top recent: 1,115,462 views | Comment 'LABS' to test your thyroid ⬇️
 ```
 
-Week over week: +245 followers (63,781 → 64,026), 14 new posts analyzed, and the Sep 14 "immune system gets confused" reel is closing in on #3 all-time (265K → 276K views).
+Week over week: +196 followers (64,026 → 64,222), 14 new posts analyzed.
