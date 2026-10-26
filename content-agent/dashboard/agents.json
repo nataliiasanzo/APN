@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T13:09:51.294Z",
-  "dataGeneratedAt": "2026-10-19T13:09:50.961Z",
+  "generatedAt": "2026-10-26T13:26:49.916Z",
+  "dataGeneratedAt": "2026-10-26T13:26:49.238Z",
   "ideator": {
     "name": "Ideator",
     "headline": "6 ideas scouted from real winners",
@@ -15,36 +15,36 @@
       },
       {
         "label": "Biggest source",
-        "value": "1.1M views"
+        "value": "393.8K views"
       }
     ],
     "ideas": [
       {
-        "title": "Your take on thyroid labs",
-        "topic": "thyroid labs",
-        "source": "@lisha_thyroid_rd — 1.1M views: \"Comment 'LABS' to test your thyroid ⬇\"",
-        "sourceUrl": "https://www.instagram.com/p/DEnaqbtSJI5/",
+        "title": "Your take on the Hashimoto's diet",
+        "topic": "the Hashimoto's diet",
+        "source": "@lisha_thyroid_rd — 393.8K views: \"How many of these are you?\"",
+        "sourceUrl": "https://www.instagram.com/p/DdraI5apBdU/",
         "angle": "The RD's honest take — what this gets right, what it skips, and the one thing that actually moves labs."
       },
       {
-        "title": "Your take on the Hashimoto's diet",
-        "topic": "the Hashimoto's diet",
-        "source": "@lisha_thyroid_rd — 374.1K views: \"How many of these are you?\"",
-        "sourceUrl": "https://www.instagram.com/p/DdraI5apBdU/",
+        "title": "Your take on GLP-1s and your thyroid",
+        "topic": "GLP-1s and your thyroid",
+        "source": "@thyroidnation — 227.8K views: \"Beyond weight management, GLP-1 medications are showing significant po\"",
+        "sourceUrl": "https://www.instagram.com/p/DesKu1QD4Ze/",
         "angle": "Same topic, Hashimoto's-specific: why generic thyroid advice lands differently when you have autoimmune disease."
       },
       {
         "title": "Your take on cortisol and your thyroid",
         "topic": "cortisol and your thyroid",
-        "source": "@lisha_thyroid_rd — 114.8K views: \"calm the inflammation\"",
+        "source": "@lisha_thyroid_rd — 116.9K views: \"calm the inflammation\"",
         "sourceUrl": "https://www.instagram.com/p/Dd6rO0uuhlS/",
         "angle": "Myth-bust it: open by agreeing, then flip one assumption your audience didn't know to question."
       },
       {
-        "title": "Your take on thyroid supplements",
-        "topic": "thyroid supplements",
-        "source": "@izabellawentzpharmd — 81.1K views: \"Please don’t hate me but two Brazil nuts a day won’t do much for your \"",
-        "sourceUrl": "https://www.instagram.com/p/DemefVxxm5i/",
+        "title": "Your take on thyroid labs",
+        "topic": "thyroid labs",
+        "source": "@lisha_thyroid_rd — 114.7K views: \"The reasons\"",
+        "sourceUrl": "https://www.instagram.com/p/DdmhPW3p_0d/",
         "angle": "Turn it into a self-ID question (your 4.8M-view format): make the viewer find themselves in stage 1–2–3."
       },
       {
@@ -82,10 +82,10 @@
     ],
     "scripts": [
       {
-        "idea": "Your take on thyroid labs",
+        "idea": "Your take on the Hashimoto's diet",
         "hooks": [
-          "Everything you've heard about thyroid labs is only half true.",
-          "Thyroid labs — my Hashimoto's patients ask me about this every single week.",
+          "Everything you've heard about the Hashimoto's diet is only half true.",
+          "The Hashimoto's diet — my Hashimoto's patients ask me about this every single week.",
           "If your TSH is \"normal\" but you still feel exhausted, this is for you."
         ],
         "beats": [
@@ -96,10 +96,10 @@
         "cta": "Comment your stage — 1, 2 or 3 — and I'll tell you where to start."
       },
       {
-        "idea": "Your take on the Hashimoto's diet",
+        "idea": "Your take on GLP-1s and your thyroid",
         "hooks": [
-          "Everything you've heard about the Hashimoto's diet is only half true.",
-          "The Hashimoto's diet — my Hashimoto's patients ask me about this every single week.",
+          "Everything you've heard about GLP-1s and your thyroid is only half true.",
+          "GLP-1s and your thyroid — my Hashimoto's patients ask me about this every single week.",
           "If your TSH is \"normal\" but you still feel exhausted, this is for you."
         ],
         "beats": [
@@ -145,43 +145,43 @@
     "calendar": [
       {
         "day": "Tuesday",
-        "date": "2026-10-20",
+        "date": "2026-10-27",
         "format": "Reel",
-        "item": "Your take on thyroid labs"
+        "item": "Your take on the Hashimoto's diet"
       },
       {
         "day": "Wednesday",
-        "date": "2026-10-21",
+        "date": "2026-10-28",
         "format": "Story poll",
         "item": "Poll: 'What's your biggest Hashimoto's frustration right now?' (feeds next week's Ideator)"
       },
       {
         "day": "Thursday",
-        "date": "2026-10-22",
+        "date": "2026-10-29",
         "format": "Carousel",
-        "item": "Your take on the Hashimoto's diet"
+        "item": "Your take on GLP-1s and your thyroid"
       },
       {
         "day": "Friday",
-        "date": "2026-10-23",
+        "date": "2026-10-30",
         "format": "Reel",
         "item": "Your take on cortisol and your thyroid"
       },
       {
         "day": "Saturday",
-        "date": "2026-10-24",
+        "date": "2026-10-31",
         "format": "Quote card",
         "item": "Pull the strongest line from this week's top comment"
       },
       {
         "day": "Sunday",
-        "date": "2026-10-25",
+        "date": "2026-11-01",
         "format": "Story Q&A",
         "item": "Answer 3 DMs publicly (anonymized) — DM Manager picks them"
       },
       {
         "day": "Monday",
-        "date": "2026-10-26",
+        "date": "2026-11-02",
         "format": "Repost",
         "item": "Re-share your evergreen #1 (4.8M views) to Stories"
       }
@@ -189,32 +189,32 @@
   },
   "analyst": {
     "name": "Analyst",
-    "headline": "105.7K views in the last 30 days",
+    "headline": "64.9K views in the last 30 days",
     "metrics": [
       {
         "label": "Views, last 30d",
-        "value": "105.7K"
+        "value": "64.9K"
       },
       {
         "label": "vs prior 30d",
-        "value": "-79%"
+        "value": "-87%"
       },
       {
         "label": "Posts, last 30d",
-        "value": "56"
+        "value": "54"
       }
     ],
     "insights": [
-      "Reels average 19.5K views across 603 posts — video is your reach engine; carousels average 142 likes and do their work in saves, not views.",
-      "Your last 20 posts average 3.3K views with 64.2K followers — @palomahealth averages 2.4K, @thyroidnation averages 7.5K, @izabellawentzpharmd averages 27.8K, @lisha_thyroid_rd averages 142.3K.",
-      "Last 30 days: 56 posts, 105.7K views (-79% vs the 30 days before).",
+      "Reels average 19.3K views across 610 posts — video is your reach engine; carousels average 140 likes and do their work in saves, not views.",
+      "Your last 20 posts average 1.8K views with 64.3K followers — @palomahealth averages 2.4K, @thyroidnation averages 22.5K, @izabellawentzpharmd averages 20.5K, @lisha_thyroid_rd averages 59.2K.",
+      "Last 30 days: 54 posts, 64.9K views (-87% vs the 30 days before).",
       "Your #1 post of all time (4.8M views) is a self-identification question — \"Which stage of Hashimoto’s are you in?\". That format is repeatable."
     ],
     "benchmarks": [
       {
         "username": "palomahealth",
-        "followers": 25184,
-        "avgRecentViews": 2413,
+        "followers": 25179,
+        "avgRecentViews": 2416.6,
         "topRecent": {
           "owner": "palomahealth",
           "shortCode": "DKvRDbYqiW8",
@@ -223,36 +223,36 @@
           "productType": "clips",
           "caption": "Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇\n\n1️⃣ Run a full thyroid panel—not just TSH\n2️⃣ Get your key nutrients: selenium, zinc, iodine, vitamin D, iron\n3️⃣ Manage your stress (your cortisol affects everything!)\n4️⃣ Support your gut health—absorption",
           "hook": "Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇",
-          "views": 6239,
+          "views": 6242,
           "likes": 20,
           "comments": 0,
           "timestamp": "2025-06-10T23:22:37.000Z",
-          "displayUrl": "https://scontent-man2-1.cdninstagram.com/v/t51.75761-15/503415311_18152858242374852_2285341041976768915_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=MzY1MjIxMjgyNTE3NDcxMzc4ODE4MTUyODU4MjM2Mzc0ODUy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=IY1tqcDiXZMQ7kNvwHcPRc_&_nc_oc=Adq_xDiL45vVEzgKihFXFXXIl5-M732fHqvNNYGT8dwRRZ0vFBR0TfWr802hf7dtKdk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_gid=VUJNHw6v3bPGf3oD87GEJA&_nc_ss=7a20f&oh=00_AQPxg5usCA4m_7gGCm8eaM9OuHTJ7phDFn5ksApyWIRzJw&oe=6ADBF906"
+          "displayUrl": "https://instagram.fccm1-1.fna.fbcdn.net/v/t51.75761-15/503415311_18152858242374852_2285341041976768915_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=MzY1MjIxMjgyNTE3NDcxMzc4ODE4MTUyODU4MjM2Mzc0ODUy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=RKveGdLT3PwQ7kNvwF6_Fh_&_nc_oc=Adr99i8yo2uT62YDb1apXZopmINBTYCKf4nGfP2k8BBxDF7SiB-b9LtjEh89KWMpKiQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fccm1-1.fna&_nc_gid=Ltp_HPZy1nBGzi74OdVsoQ&_nc_ss=7a20f&oh=00_AQMUo9ehQLU76vrN9Sj9oBSeTEwDYiHdzz2DEjps48lHig&oe=6AE53386"
         }
       },
       {
         "username": "thyroidnation",
-        "followers": 118337,
-        "avgRecentViews": 7477.529411764706,
+        "followers": 120355,
+        "avgRecentViews": 22526.315789473683,
         "topRecent": {
           "owner": "thyroidnation",
-          "shortCode": "DeosKwADmQL",
-          "url": "https://www.instagram.com/p/DeosKwADmQL/",
+          "shortCode": "DesKu1QD4Ze",
+          "url": "https://www.instagram.com/p/DesKu1QD4Ze/",
           "type": "Video",
           "productType": "clips",
-          "caption": "Hashimoto's can be reversed! I've been in remission for 12+ years. Medicine often says it's not possible, but it is. Reduce those antibodies! Thyroid #Hypothyroidism #ThyroidProblems #Hashimoto #Hashimotos",
-          "hook": "Hashimoto's can be reversed! I've been in remission for 12+ years. Medicine often says it's not possible, but it is. Red",
-          "views": 44832,
-          "likes": 235,
-          "comments": 11,
-          "timestamp": "2026-10-18T12:32:32.000Z",
-          "displayUrl": "https://instagram.fper10-2.fna.fbcdn.net/v/t51.71878-15/855407433_2083209682319887_1274948217678393871_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMDY0OTcyMDk1NTIzMzI5MTE4NjMxMTg3ODY5MDM2NzQ5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=M1OYaGnLU8wQ7kNvwGbuXb_&_nc_oc=Ado49aXtiANHXQ2f2tn5ftummhtCFWWXG8rk5mWqhSEixEZB8T-YKI0FHG7PAp8745Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fper10-2.fna&_nc_gid=yvIX2MrbEDH3qCKpZiLG4w&_nc_ss=7a20f&oh=00_AQOH0xpN-_Wk3E83G2WBglb-abDUvMAJA4YhSqy1cZeS_Q&oe=6ADBF7AD"
+          "caption": "Beyond weight management, GLP-1 medications are showing significant potential in reducing inflammation, paving the way for wider health improvements. #GLP1 #longevity # antiaging #semaglutide #GLP",
+          "hook": "Beyond weight management, GLP-1 medications are showing significant potential in reducing inflammation, paving the way f",
+          "views": 227848,
+          "likes": 3638,
+          "comments": 236,
+          "timestamp": "2026-10-19T20:57:21.000Z",
+          "displayUrl": "https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/857011414_1643988427089440_1444199555551869190_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=NDAxMTYyODU2NjgxOTA3OTc3NDE4NjMxNjk2MDM2MDM2NzQ5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=EOdMYJOLgD0Q7kNvwGbkTUi&_nc_oc=AdpE3ULJWxfqVs5jROLPZblzI9OdZ8Z0OWGuBHKNcZ1esQ56GVWLM67TMNSGdPYYtOztDhGz6fLqd5zSWZNOyzFS&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=Q_-gxmgpLdno5tDBK4qpig&_nc_ss=7a20f&oh=00_AQO5xf__TslwHprrq7IW21ADTTLeW213RUuoPXEQg4DwlQ&oe=6AE53C43"
         }
       },
       {
         "username": "izabellawentzpharmd",
-        "followers": 246911,
-        "avgRecentViews": 27833.46153846154,
+        "followers": 247916,
+        "avgRecentViews": 20463.166666666668,
         "topRecent": {
           "owner": "izabellawentzpharmd",
           "shortCode": "DemefVxxm5i",
@@ -261,30 +261,30 @@
           "productType": "clips",
           "caption": "Please don’t hate me but two Brazil nuts a day won’t do much for your Hashimoto’s! \n\nI know it’s catchy… but…\n\nSelenium is a narrow therapeutic index nutrient- that means, we need VERY precise doses to ensure that it is HELPFUL and NOT harmful! \n\nI’ve had many clients “eat two Brazil nuts a day” for",
           "hook": "Please don’t hate me but two Brazil nuts a day won’t do much for your Hashimoto’s! ",
-          "views": 81060,
-          "likes": 516,
-          "comments": 150,
+          "views": 92688,
+          "likes": 603,
+          "comments": 197,
           "timestamp": "2026-10-17T15:54:41.000Z",
-          "displayUrl": "https://scontent-itm1-1.cdninstagram.com/v/t51.82787-15/855705334_18644146360053953_8433913332530536998_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=NDAxMDAyNjYxMzMwMjc4MzU4NjE4NjQ0MTQ2MzU3MDUzOTUz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=x-heVIpmruQQ7kNvwHiFRdx&_nc_oc=AdruiRuU_Ju2LtA6OKOO9jKbmMYrHbBu49Rzhp6NlTKP6q8KyEaGtH5dcglFd-pp_B7RpMb4NoK-d4ajjX3JUqM0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-itm1-1.cdninstagram.com&_nc_gid=1rlQM_uXsXvyLu6aEL1vMA&_nc_ss=7a20f&oh=00_AQMLmOuTrjQne7JUrQNRTKC_RBgZ22FkjX3TZk01w9ZVXw&oe=6ADBEE25"
+          "displayUrl": "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/855705334_18644146360053953_8433913332530536998_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=NDAxMDAyNjYxMzMwMjc4MzU4NjE4NjQ0MTQ2MzU3MDUzOTUz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=k5cb5rIddpEQ7kNvwEkKmFd&_nc_oc=AdpvWW36kZ-fA26WyHwD58SNwfGTB6fgS2vRX1l9y_Ep2yUpNclKRwNhH_dtxhhql6s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=S7IMNxJKqGiait950m1lkQ&_nc_ss=7a20f&oh=00_AQNL8_37fcY19Mb-i6xe-5CGrZDQ-EMn9aV5_7TQ2AUGEw&oe=6AE528A5"
         }
       },
       {
         "username": "lisha_thyroid_rd",
-        "followers": 105649,
-        "avgRecentViews": 142341.14285714287,
+        "followers": 105776,
+        "avgRecentViews": 59219.8125,
         "topRecent": {
           "owner": "lisha_thyroid_rd",
-          "shortCode": "DEnaqbtSJI5",
-          "url": "https://www.instagram.com/p/DEnaqbtSJI5/",
+          "shortCode": "DdraI5apBdU",
+          "url": "https://www.instagram.com/p/DdraI5apBdU/",
           "type": "Video",
           "productType": "clips",
-          "caption": "Comment 'LABS' to test your thyroid ⬇️\n\n🦋January is Thyroid Awareness Month, here are some odd but common symptoms of Hashimoto's:\n\nSwollen neck or difficulty swallowing (enlarged thyroid or goiter).\n\nPuffy face (area around eyes) or swelling in the hands and feet.\n\nHigh cholesterol levels despite ",
-          "hook": "Comment 'LABS' to test your thyroid ⬇️",
-          "views": 1115462,
-          "likes": 7531,
-          "comments": 4591,
-          "timestamp": "2025-01-09T19:03:58.000Z",
-          "displayUrl": "https://instagram.fdrw1-1.fna.fbcdn.net/v/t51.71878-15/473137931_1123589705830007_3888339982708010441_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzU0MTkxNjg5NzEyODI1NjA1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=OsaJK8Uk74YQ7kNvwHTmgzL&_nc_oc=AdoUDjG5WvSbsYVdWwEJqX34WlL8t9995J9iniklVWmangRPu17Neci3AHpB1L2Sv7c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fdrw1-1.fna&_nc_gid=785_CydUY9hGAdFEcFXQjw&_nc_ss=7a20f&oh=00_AQN2NRA5iCdq_z4WfutjOxuk8HvC0gwYb9qe22zZ6RLqHg&oe=6ADBD7FB"
+          "caption": "How many of these are you? 👀\n\nFollow along for more Hashimoto’s & thyroid education from a Dietitian, practitioner, and fellow Hashimoto's patient 🦋\n.\n.\n.\n.\n.\n#Hashimotos \n#hypothyroidism \n#autoimmunedisease \n#hormonehealth\n#thyroid",
+          "hook": "How many of these are you? 👀",
+          "views": 393793,
+          "likes": 6038,
+          "comments": 295,
+          "timestamp": "2026-09-24T17:23:51.000Z",
+          "displayUrl": "https://scontent-icn2-1.cdninstagram.com/v/t15.5256-10/824487012_39329245036666614_1987787108512033639_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk5MzQwMDQ1NTIwOTQyNDcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=kfaHQzdGuWQQ7kNvwFux37l&_nc_oc=AdqG6V4XS0LIJW_lrsZxhOMbVKeVEu-_o24L5d3sJgRtSOlahDAdPjwaNyeIf1UEzE8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=jvEj6o5rKdTJvT_UeJK84w&_nc_ss=7a20f&oh=00_AQMu3_F81hJGVN9zwiCdoOf7tZXIfSoRwXIQhhJHM5p4vw&oe=6AE52865"
         }
       }
     ]

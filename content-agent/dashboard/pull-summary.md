@@ -1,12 +1,12 @@
-# Data pull — 2026-10-19
+# Data pull — 2026-10-26
 
-**Status: SUCCESS ✓** (fourth consecutive clean weekly run)
+**Status: SUCCESS ✓** (fifth consecutive clean pull; the Telegram digest step failed this week — see `digest-status.md`)
 
-Console summary of `node scripts/pull-data.js` (incremental: last 60 posts merged into 1070 cached):
+Console summary of `node scripts/pull-data.js` (incremental: last 60 posts merged into 1084 cached):
 
 ```
-@all.purpose.nutrition — 64,222 followers, 2,242 posts (1084 analyzed)
-Total views across history: 11,748,721 | avg engagement: 0.34%
+@all.purpose.nutrition — 64,265 followers, 2,255 posts (1097 analyzed)
+Total views across history: 11,761,168 | avg engagement: 0.34%
 
 TOP 10 POSTS OF ALL TIME (by views):
  1. 4,803,268 views | 4,587 likes | 2025-05-17 | Which stage of Hashimoto's are you in?👇
@@ -21,10 +21,10 @@ TOP 10 POSTS OF ALL TIME (by views):
 10. 78,714 views | 1,676 likes | 2026-07-07 | Ten supplements for Hashimoto's that actually earn their spot.
 
 Competitors:
-  @palomahealth: 25,184 followers — top recent: 6,239 views | Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇
-  @thyroidnation: 118,337 followers — top recent: 44,832 views | Hashimoto's can be reversed! I've been in remission for 12+ years. Medicine often says it's not possible, but it is. Red
-  @izabellawentzpharmd: 246,911 followers — top recent: 81,060 views | Please don't hate me but two Brazil nuts a day won't do much for your Hashimoto's!
-  @lisha_thyroid_rd: 105,649 followers — top recent: 1,115,462 views | Comment 'LABS' to test your thyroid ⬇️
+  @palomahealth: 25,179 followers — top recent: 6,242 views | Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇
+  @thyroidnation: 120,355 followers — top recent: 227,848 views | Beyond weight management, GLP-1 medications are showing significant potential in reducing inflammation, paving the way f
+  @izabellawentzpharmd: 247,916 followers — top recent: 92,688 views | Please don't hate me but two Brazil nuts a day won't do much for your Hashimoto's!
+  @lisha_thyroid_rd: 105,776 followers — top recent: 393,793 views | How many of these are you? 👀
 ```
 
-Week over week: +196 followers (64,026 → 64,222), 14 new posts analyzed.
+Week over week: +43 followers (64,222 → 64,265), 13 new posts analyzed. Notable competitor move: @thyroidnation jumped ~2K followers on a 228K-view GLP-1/inflammation post.
