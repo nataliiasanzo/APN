@@ -1,12 +1,12 @@
-# Data pull — 2026-11-02
+# Data pull — 2026-11-09
 
-**Status: SUCCESS ✓** (sixth consecutive clean pull; Telegram delivery also recovered after last week's 504)
+**Status: SUCCESS ✓** (seventh consecutive clean pull)
 
-Console summary of `node scripts/pull-data.js` (incremental: last 60 posts merged into 1097 cached):
+Console summary of `node scripts/pull-data.js` (incremental: last 60 posts merged into 1109 cached):
 
 ```
-@all.purpose.nutrition — 64,467 followers, 2,267 posts (1109 analyzed)
-Total views across history: 11,784,173 | avg engagement: 0.34%
+@all.purpose.nutrition — 64,558 followers, 2,277 posts (1119 analyzed)
+Total views across history: 11,802,012 | avg engagement: 0.33%
 
 TOP 10 POSTS OF ALL TIME (by views):
  1. 4,803,268 views | 4,587 likes | 2025-05-17 | Which stage of Hashimoto's are you in?👇
@@ -21,10 +21,10 @@ TOP 10 POSTS OF ALL TIME (by views):
 10. 78,714 views | 1,676 likes | 2026-07-07 | Ten supplements for Hashimoto's that actually earn their spot.
 
 Competitors:
-  @palomahealth: 25,161 followers — top recent: 6,244 views | Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇
-  @thyroidnation: 121,942 followers — top recent: 273,437 views | Beyond weight management, GLP-1 medications are showing significant potential in reducing inflammation, paving the way f
-  @izabellawentzpharmd: 248,829 followers — top recent: 79,619 views | I wish I had known about this when first diagnosed with Hashimoto's! Aloe may potentially help Hashimoto's reach remissi
-  @lisha_thyroid_rd: 105,891 followers — top recent: 403,664 views | How many of these are you? 👀
+  @palomahealth: 25,147 followers — top recent: 6,248 views | Trying to get your thyroid in check? 🦋 Here are 4 things that actually make a difference👇
+  @thyroidnation: 122,703 followers — top recent: 319,239 views | Beyond weight management, GLP-1 medications are showing significant potential in reducing inflammation, paving the way f
+  @izabellawentzpharmd: 250,065 followers — top recent: 47,050 views | Am I right?
+  @lisha_thyroid_rd: 106,155 followers — top recent: 406,773 views | How many of these are you? 👀
 ```
 
-Week over week: +202 followers (64,265 → 64,467), 12 new posts analyzed. @thyroidnation's GLP-1/inflammation post keeps compounding (228K → 273K views, +1.6K followers for them this week) — the GLP-1 × Hashimoto's angle is clearly resonating in the niche right now.
+Week over week: +91 followers (64,467 → 64,558), 10 new posts analyzed. The GLP-1 trend keeps running: @thyroidnation's GLP-1/inflammation post is now at 319K views (+46K this week) and has carried them past 122K followers.
